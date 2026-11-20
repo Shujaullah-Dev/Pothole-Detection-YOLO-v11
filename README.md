@@ -4,13 +4,13 @@ A computer vision project for detecting and classifying road potholes by severit
 
 ---
 
-## 📋 Overview
+## Overview
 
 This repository contains the complete training, validation, and inference pipeline implemented in [`CV_Project_.ipynb`](https://github.com/Shujaullah-Dev/Pothole-Detection-YOLO-v11/blob/main/CV_Project_.ipynb). The model is fine-tuned on a custom annotated pothole dataset to identify road surface damage in real time, making it suitable for automated road maintenance and smart infrastructure monitoring.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The dataset used to train and evaluate this model is publicly available on Kaggle:
 
@@ -21,7 +21,7 @@ The dataset used to train and evaluate this model is publicly available on Kaggl
     
 ---
 
-## 🛠️ Tech Stack & Environment
+##  Tech Stack & Environment
 
 * **Framework:** Ultralytics (`v8.3.235`)
 * **Model Architecture:** `yolo11n.pt` (181 layers, ~2.58M parameters, 6.3 GFLOPs)
@@ -30,7 +30,7 @@ The dataset used to train and evaluate this model is publicly available on Kaggl
 
 ---
 
-## ⚙️ Training Configuration
+##  Training Configuration
 
 The model was trained using the following hyperparameters:
 
@@ -46,7 +46,7 @@ The model was trained using the following hyperparameters:
 
 ---
 
-## 📊 Validation Results
+##  Validation Results
 
 After 50 epochs of training, the best checkpoint (`best.pt`) achieved the following performance on the validation set:
 
@@ -61,7 +61,7 @@ After 50 epochs of training, the best checkpoint (`best.pt`) achieved the follow
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 ```bash
